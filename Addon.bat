@@ -2,6 +2,7 @@
 echo Run the CMD program
 pause
 cls 
+git pull https://github.com/adahake/InsuranceTest.git
 git status
 git add .
 git commit -m "changes made"
