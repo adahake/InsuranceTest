@@ -5,7 +5,7 @@ for /f "tokens=1-4 delims=/ " %%i in ("%date%") do (
      set day=%%k
      set year=%%l
 )
-set target_folder=%month%_%day%_%year%
+set target_folder=%month%_%day%_%year%A%
 SET postman_api_key="PMAK-5f3a7160b475490034f385ea-4e77de31f63185578a607d0cc674626607"
 SET postman_collection_id="97ee5752-904e-4149-8d24-7e987be15031"
 SET postman_collection_env="9018931-97ee5752-904e-4149-8d24-7e987be15031"
